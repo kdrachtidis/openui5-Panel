@@ -6,7 +6,40 @@
   <Page class="sapUiContentPadding"
     title="Home">
     <content>
-      <!-- Place content here-->
+     <VBox backgroundDesign="Solid" class="sapUiNoPadding">
+          <Panel expandable="true"
+            width="auto"
+            class="sapUiResponsiveMargin" backgroundDesign="solid">
+            <headerToolbar>
+              <OverflowToolbar style="Clear">
+                <Title text="Custom Toolbar with a header text" />
+                <ToolbarSpacer />
+                <Button icon="sap-icon://settings" />
+                <Button icon="sap-icon://drop-down-list" />
+              </OverflowToolbar>
+            </headerToolbar>
+            <content>
+              <Text text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat" />
+            </content>
+          </Panel>
+          </VBox>
+          <VBox class="sapUiNoPadding">
+           <Panel expandable="true"
+            width="auto"
+            class="sapUiResponsiveMargin">
+            <headerToolbar>
+              <OverflowToolbar style="Clear">
+                <Title text="Custom Toolbar with a header text" />
+                <ToolbarSpacer />
+                <Button icon="sap-icon://settings" />
+                <Button icon="sap-icon://drop-down-list" />
+              </OverflowToolbar>
+            </headerToolbar>
+            <content>
+              <Text text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat" />
+            </content>
+          </Panel>
+        </VBox>
     </content>
   </Page>
 </mvc:View>
